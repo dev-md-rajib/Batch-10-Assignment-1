@@ -25,6 +25,8 @@
 
 }
 
+
+
 /* Header styles */
 
 .header{
@@ -114,4 +116,73 @@ nav button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
+}
+
+
+
+/* why-web styles */
+.why-web{
+    max-width: 1043px;
+    margin: 74px auto 0px auto;
+    
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    text-align: center;
+
+}
+
+.why-web-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.why-web-details{
+    padding: 24px 47px 0px 47px;
+}
+
+.why-web-card-1{
+
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+    margin-top: 48px;
+    display: flex;
+    gap: 98.83px;
+    justify-content: space-between;
+}
+
+.why-web-card-1>.div1{
+    
+    text-align: left;
+    width: 468px;
+}
+.card1-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 490px;
+    margin-bottom: 16px;
+}
+
+.why-web-card-1 button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    border-radius: 0;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+/* card2 styles */
+.card2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
