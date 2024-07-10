@@ -347,7 +347,7 @@ width: 468px;
 
 .support{
     max-width: 1237px;
-    margin: 49px auto 100px auto;
+    margin: 49px auto 80px auto;
     border-radius: 16px;
     /* background-image: url('../assets/handshake.jpg'); */
     background-size: cover;
@@ -418,7 +418,7 @@ form {
 footer{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    height: 68px;
+    height: 36px;
     display: flex;
     align-items: center;
     justify-content: space-between;
