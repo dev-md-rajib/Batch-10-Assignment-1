@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Azeret Mono", monospace; */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*   font-family: "Inter", sans-serif; */
+
 *{
     font-family: "Azeret Mono", monospace;
     margin: 0;
@@ -67,7 +70,7 @@ nav button{
 
 /* hero styles */
 .hero{
-    max-width: 1440px;
+    max-width: 100%;
     height: 652px;
     margin: 35px auto;
     padding-top: 4px;
@@ -287,4 +290,97 @@ nav button{
 
 .ins-card2{
     background: rgba(0, 76, 232, 0.05);
+}
+
+/* support section styles */
+
+.support{
+    max-width: 1237px;
+    margin: 49px auto 100px auto;
+    border-radius: 16px;
+    /* background-image: url('../assets/handshake.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.381),rgba(0, 0, 0, 0.359),rgba(0, 0, 0, 0.397)) ,url('../assets/handshake.jpg');
+    padding: 80px 0 74px 0;
+    text-align: center;
+    
+
+}
+
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    height: 36px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    line-height: 36px;
+    
+}
+
+.support-details{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    opacity: .7;
+}
+
+.support input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    padding: 0 20px 0 20px;
+    height: 57px;
+    width: 508px;
+    margin-right: 16px;
+}
+
+.support button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 0px 20px 0px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
+    height: 57px;
+   
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center; 
+}
+
+/* footer styles */
+
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:32px 150px;
+}
+
+footer p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.socials{
+    display: flex;
+    gap: 24px;
 }
