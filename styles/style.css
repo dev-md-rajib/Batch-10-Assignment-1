@@ -186,3 +186,42 @@ nav button{
 .card2{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+
+
+/* my-inspiration styles */
+
+.my-inspiration{
+
+    margin: 88px auto 0px auto;
+    max-width: 1237px;
+    
+}
+
+.my-inspiration-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.my-inspiration-details{
+    text-align: center;
+    padding:0px 122px;
+    margin-bottom: 48px;
+}
+
+.my-inspiration-vid{
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.my-inspiration-vid iframe{
+    height: 550px;
+    width: 100%;
+    border-radius: 16px;
+}
