@@ -24,6 +24,13 @@
     border-radius: 8px;
     opacity: 0.7;
     background-color: transparent;
+    transition: .125s all;
+}
+
+.primary-btn2:hover{
+    background-color:rgba(0, 0, 0, 0.655) ;
+    color: white;
+    
 }
 
 .details-texts{
@@ -77,6 +84,8 @@ nav button{
 }
 
 
+
+
 /* hero styles */
 .hero{
     max-width: 100%;
@@ -84,7 +93,7 @@ nav button{
     margin: 35px auto;
     padding-top: 4px;
     background-image: url('../assets/Hero-bg.png');
-
+  
 
 }
 
@@ -128,6 +137,18 @@ nav button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
+    transition: .125s;
+}
+
+.hero div button:hover{
+    padding: 22px 30px 22px 30px;
+    font-size: 21px;
+
+}
+
+.hero div button:active{
+    color:rgb(13, 19, 33);
+    background-color: white;
 }
 
 
@@ -143,6 +164,8 @@ nav button{
     text-align: center;
 
 }
+
+
 
 .why-web-title{
     color: rgb(13, 19, 33);
@@ -165,7 +188,19 @@ nav button{
     display: flex;
     gap: 98.83px;
     justify-content: space-between;
+    transition: .125s all;
 }
+
+.why-web-card-1:hover{
+    box-shadow: 5px 5px 10px 0px ;
+}
+
+
+.why-web-card-2:hover{
+    box-shadow: -5px -5px 10px 0px ;
+
+}
+
 
 .why-web-card-1>.div1{
     
@@ -188,6 +223,7 @@ margin-left: 32px;
     
     margin-top: 48px;
     display: flex;
+    transition: .125s all;
  
     
 }
@@ -231,6 +267,8 @@ width: 468px;
     font-weight: 600;
     margin-top: 32px;
 }
+
+
 
 /* card2 styles */
 .card2{
@@ -312,8 +350,17 @@ width: 468px;
     flex: 1;
 }
 
+.my-current-target-card:hover{
+    background-color: rgba(255, 75, 30, 0.215);
+
+}
+
 .bg-card2{
     background: rgba(255, 223, 0, 0.05);
+}
+
+.bg-card2:hover{
+    background: rgba(255, 221, 0, 0.208);
 }
 
 .my-current-target-card img{
@@ -341,6 +388,11 @@ width: 468px;
 
 .ins-card2{
     background: rgba(0, 76, 232, 0.05);
+}
+
+.ins-card2:hover{
+    background: rgba(0, 77, 232, 0.229);
+
 }
 
 /* support section styles */
@@ -400,7 +452,14 @@ width: 468px;
     font-weight: 600;
     border:none;
     height: 57px;
-   
+   transition: .125s all;
+   box-sizing: border-box;
+}
+
+.support button:hover{
+    background:rgb(13, 19, 33); 
+    color:white;
+    outline: 1px solid white;
 }
 
 .feedback {
@@ -434,4 +493,13 @@ footer p{
 .socials{
     display: flex;
     gap: 24px;
+}
+
+footer img{
+    transition: .05s all;
+}
+
+footer img:hover{
+    outline: 2px solid rgb(0, 213, 255);
+    border-radius: 50%;
 }
