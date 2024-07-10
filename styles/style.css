@@ -15,6 +15,15 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    background-color: transparent;
+}
+
+.primary-btn2{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.7;
+    background-color: transparent;
 }
 
 .details-texts{
@@ -163,6 +172,44 @@ nav button{
     text-align: left;
     width: 468px;
 }
+
+.div2{
+text-align: left;
+margin-left: 32px;
+/* padding-right: 160px; */
+
+}
+
+.why-web-card-2{
+
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+    margin-top: 48px;
+    display: flex;
+ 
+    
+}
+
+.why-web-card-2 p[class="details-texts"]{
+width: 468px;
+}
+
+
+.why-web-card-2 button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    border-radius: 0;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+
 .card1-title{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
@@ -263,6 +310,10 @@ nav button{
     padding: 40px;
     border-radius: 16px;
     flex: 1;
+}
+
+.bg-card2{
+    background: rgba(255, 223, 0, 0.05);
 }
 
 .my-current-target-card img{
