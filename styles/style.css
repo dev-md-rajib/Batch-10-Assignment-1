@@ -354,7 +354,7 @@ width: 468px;
     background-position: center;
     background-repeat: no-repeat;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.381),rgba(0, 0, 0, 0.359),rgba(0, 0, 0, 0.397)) ,url('../assets/handshake.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.464)) ,url('../assets/handshake.jpg');
     padding: 80px 0 74px 0;
     text-align: center;
     
